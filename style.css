@@ -176,3 +176,40 @@
         text-transform: capitalize;
         white-space: nowrap;
     }
+    @media (max-width: 768px) {
+
+    body {
+        flex-direction: column;
+    }
+
+    .menu {
+        width: 100%;
+        height: auto;
+        overflow: visible;
+    }
+
+    .menu:hover {
+        width: 100%;
+    }
+
+    .profile {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    ul li a {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .data {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .box,
+    .box2,
+    .box3 {
+        width: auto;
+    }
+}
