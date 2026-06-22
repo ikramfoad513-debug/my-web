@@ -176,6 +176,7 @@
         text-transform: capitalize;
         white-space: nowrap;
     }
+    
     @media (max-width: 768px) {
 
     body {
