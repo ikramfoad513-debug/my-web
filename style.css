@@ -177,7 +177,7 @@
         white-space: nowrap;
     }
     
-    @media (max-width: 768px) {
+    @media (max-width: 8500px) {
 
     body {
         flex-direction: column;
